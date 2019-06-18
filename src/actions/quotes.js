@@ -23,7 +23,7 @@ export const upvoteQuote = quote => {
 
 export const upvoteQuote = quote => {
   return {
-    type: 'UPVOTE-QUOTE',
+    type: 'UPVOTE_QUOTE',
     quoteID
   };
 };
