@@ -13,7 +13,6 @@ class App extends Component {
           //Render QuoteForm and Quotes Components
         <QuoteForm />
         <Quotes />
-
       </div>
     );
   }
