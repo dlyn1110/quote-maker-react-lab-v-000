@@ -7,35 +7,13 @@ export const addQuote = quote => {
   };
 };
 
-export const removeQuote = quote => {
+export const removeQuote = quoteId => {
   return {
     type: 'REMOVE_QUOTE',
     quote: quoteID
   };
 };
 
-export const upvoteQuote = quote => {
-  return {
-    type: 'UPVOTE-QUOTE',
-    quoteID
-  };
-};
-
-export const upvoteQuote = quote => {
-  return {
-    type: 'UPVOTE_QUOTE',
-    quoteID
-  };
-};
-
-export const upvoteQuote = quote => {
-  return {
-    type: 'UPVOTE_QUOTE',
-    quoteID
-  };
-};
-
-
 export const upvoteQuote = quoteId => {
   return {
     type: 'UPVOTE_QUOTE',
@@ -43,13 +21,6 @@ export const upvoteQuote = quoteId => {
   };
 };
 
-
-export const upvoteQuote = quoteId => {
-  return {
-    type: 'UPVOTE_QUOTE',
-    quoteID
-  };
-};
 
 export const downvoteQuote = quoteId => {
   return {
