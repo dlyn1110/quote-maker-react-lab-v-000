@@ -10,7 +10,7 @@ export const addQuote = quote => {
 export const removeQuote = quoteId => {
   return {
     type: 'REMOVE_QUOTE',
-    quote: quoteID
+    quoteId: quoteID
   };
 };
 
