@@ -8,19 +8,18 @@ export const addQuote = quote => {
 };
 
 export const removeQuote = quoteId => {
-  return {
-    type: 'REMOVE_QUOTE',
-    quoteId: quoteID
-  };
+    return {
+        type: "REMOVE_QUOTE",
+        quoteId: quoteId
+    };
 };
 
 export const upvoteQuote = quoteId => {
-  return {
-    type: 'UPVOTE_QUOTE',
-    quoteID
-  };
+    return {
+        type: "UPVOTE_QUOTE",
+        quoteId
+    };
 };
-
 
 export const downvoteQuote = quoteId => {
   return {
